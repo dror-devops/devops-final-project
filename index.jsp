@@ -20,12 +20,12 @@
   <%
       for (int i = 0; i < authors.length; ++i) {
   %>
-        <li><a href="https://en.wikipedia.org/wiki/<%= authors[i] %>"><%= authors[i] %></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/<%= authors[i] %>"><%= authors[i] %> in Wikipedia</a></li>
   <%
       }
   %>
     </ul>
-    <a href="<%= request.getRequestURI() %>">BACK</a>
+    <a href="<%= request.getRequestURI() %>">CLEAR</a>
   <%
   }
   %>
